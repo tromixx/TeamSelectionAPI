@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "TeamSelectionAPI.Controllers.PlayersController",
+    "Method": "AddPlayer",
+    "RelativePath": "Players/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "player",
+        "Type": "TeamSelectionAPI.Models.Player",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeamSelectionAPI.Controllers.PlayersController",
+    "Method": "DeletePlayer",
+    "RelativePath": "Players/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeamSelectionAPI.Controllers.PlayersController",
+    "Method": "ListPlayers",
+    "RelativePath": "Players/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeamSelectionAPI.Controllers.PlayersController",
+    "Method": "SelectBestPlayer",
+    "RelativePath": "Players/select",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TeamSelectionAPI.Models.TeamSelectionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeamSelectionAPI.Controllers.PlayersController",
+    "Method": "UpdatePlayer",
+    "RelativePath": "Players/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "player",
+        "Type": "TeamSelectionAPI.Models.Player",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
