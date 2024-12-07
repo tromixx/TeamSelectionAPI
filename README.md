@@ -1,4 +1,3 @@
-```markdown
 # **Team Selection API**
 
 ## **Overview**
@@ -20,7 +19,7 @@ The Team Selection API allows you to manage players with specific skills and pos
 Clone the repository to your local machine:
 ```bash
 git clone <repository-url>
-```
+
 
 ### **2. Open in Visual Studio**
 - Open the solution file in Visual Studio.
